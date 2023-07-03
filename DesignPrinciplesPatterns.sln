@@ -11,35 +11,35 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegrigation", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example 1", "..\DependencyInversionP\Example 1.csproj", "{DCADEE46-5C81-4958-9195-989468D43EFB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "..\Proxy\Proxy.csproj", "{50CF913D-596E-46A8-82FB-C5A9F588A770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{50CF913D-596E-46A8-82FB-C5A9F588A770}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "..\Flyweight\Flyweight.csproj", "{B4A6F5B1-656C-4774-B4CB-EEDF1BEEAE04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{B4A6F5B1-656C-4774-B4CB-EEDF1BEEAE04}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "..\Facade\Facade.csproj", "{CAC01D9E-8A26-42B3-BFAC-29130B2C7ACB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csproj", "{CAC01D9E-8A26-42B3-BFAC-29130B2C7ACB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Document", "..\Command\Document.csproj", "{3EB7B123-7820-42D2-9013-B611142D102C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Document", "Command\Document.csproj", "{3EB7B123-7820-42D2-9013-B611142D102C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company", "..\Composit\Company.csproj", "{8B3AB59E-A626-43A3-A845-AA4868C0FFE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Company", "Composit\Company.csproj", "{8B3AB59E-A626-43A3-A845-AA4868C0FFE8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "..\Prototype\Prototype.csproj", "{23C32E8D-CC46-4869-A880-396E5CEC9125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{23C32E8D-CC46-4869-A880-396E5CEC9125}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clone", "..\Clone\Clone.csproj", "{65E2EF9E-0959-46BC-934C-0CF49D017445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clone", "Clone\Clone.csproj", "{65E2EF9E-0959-46BC-934C-0CF49D017445}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Message", "..\Bridge\Message.csproj", "{14AA1A81-0E99-4069-A365-3747F08C38CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Message", "Bridge\Message.csproj", "{14AA1A81-0E99-4069-A365-3747F08C38CB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATM", "..\ChainResponcibility\ATM.csproj", "{8C4E3E95-BC8A-4EC3-8046-2B3BDF2C1C07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATM", "ChainResponsibility\ATM.csproj", "{8C4E3E95-BC8A-4EC3-8046-2B3BDF2C1C07}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compression", "..\Strategy\Compression.csproj", "{95756848-E357-4EDC-B171-AFF8349AF754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compression", "Strategy\Compression.csproj", "{95756848-E357-4EDC-B171-AFF8349AF754}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "..\Mediator\Mediator.csproj", "{5109EA67-1EBB-4CCC-AC23-C08D98997381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Mediator\Mediator.csproj", "{5109EA67-1EBB-4CCC-AC23-C08D98997381}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coffee", "..\Template\Coffee.csproj", "{B531E1F3-6BEB-435F-B69E-05237E976201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Coffee", "Template\Coffee.csproj", "{B531E1F3-6BEB-435F-B69E-05237E976201}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "..\Visitor\Visitor.csproj", "{A0D864C7-D79F-46D9-A861-56F62C7C154A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor.csproj", "{A0D864C7-D79F-46D9-A861-56F62C7C154A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "..\Observers\Observer.csproj", "{52665EE3-8E73-4A68-9B67-AD8F44D86F77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observers\Observer.csproj", "{52665EE3-8E73-4A68-9B67-AD8F44D86F77}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "..\Factory\Factory.csproj", "{25E2721B-499E-4449-BAB0-E765DA39B253}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{25E2721B-499E-4449-BAB0-E765DA39B253}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fluent", "Fluent\Fluent.csproj", "{E48D8987-9837-4AC5-8F78-DE20490FD76E}"
 EndProject
@@ -114,10 +114,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recycle Bin", "Recycle Bin", "{BD6A8939-7F5E-498B-A99D-B0CE6406B2A1}"
 	ProjectSection(SolutionItems) = preProject
 		..\Visitor\Factories\ActionFactory.cs = ..\Visitor\Factories\ActionFactory.cs
-		..\ChainResponcibility\Classes\ConsoleClass.cs = ..\ChainResponcibility\Classes\ConsoleClass.cs
+		..\ChainResponsibility\Classes\ConsoleClass.cs = ..\ChainResponsibility\Classes\ConsoleClass.cs
 		..\Visitor\Factories\ExtendedActionFactory.cs = ..\Visitor\Factories\ExtendedActionFactory.cs
 		Game\Classes\Game.cs = Game\Classes\Game.cs
-		..\ChainResponcibility\Classes\Handler.cs = ..\ChainResponcibility\Classes\Handler.cs
+		..\ChainResponsibility\Classes\Handler.cs = ..\ChainResponsibility\Classes\Handler.cs
 		..\Visitor\Interfaces\IAction.cs = ..\Visitor\Interfaces\IAction.cs
 		Memento\Classes\LedTv.cs = Memento\Classes\LedTv.cs
 		..\Factory\Classes\Option.cs = ..\Factory\Classes\Option.cs
