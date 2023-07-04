@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DP\HelperLib\HelperLib.csproj" />
+    <ProjectReference Include="..\HelperLib\HelperLib.csproj" />
   </ItemGroup>
 
 </Project>

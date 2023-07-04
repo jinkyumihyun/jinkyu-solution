@@ -13,7 +13,7 @@ namespace ATM.Classes
         List<string> _issuees = new List<string>();
 
         Guid _guid = Guid.NewGuid();
-        public Card Card { get; private set; } = null;
+        public Card? Card { get; private set; } = null;
         public bool Insert(Card card)
         => Card is not null ? Helper.Write($"A card already in the slot.", false)
             : card is null ? Helper.Write($"card is null", false)

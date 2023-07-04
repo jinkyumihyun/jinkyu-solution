@@ -12,6 +12,6 @@ namespace Cache.Interfaces
         bool Update(object key, object value);       
         bool Remove(object key);
         void Clear();
-        object Get(object key);
+        object? Get(object key);
     }
 }

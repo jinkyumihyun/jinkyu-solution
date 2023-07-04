@@ -11,9 +11,9 @@ namespace Proxy.Classes
     class ProxyServer : IServer
     {
         public ProxyServer(string serviceName)
-            => ServiceName = serviceName;
+            => _serviceName = serviceName;
 
-        IService _service = null;
+        IService? _service = null;
         string _serviceName;
         public string ServiceName
         {

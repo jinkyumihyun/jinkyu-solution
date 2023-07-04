@@ -45,7 +45,7 @@ namespace Automaton.Classes
 
             while (true)
             {
-                string ruleText = GetRuleText();
+                string? ruleText = GetRuleText();
                 if (ruleText is null)
                 {
                     Console.ReadKey();
@@ -80,7 +80,7 @@ namespace Automaton.Classes
             string rule = string.IsNullOrWhiteSpace(ruleStr) ? string.Empty : ruleStr.Trim();
             return rule;
         }
-        string GetRuleText()
+        string? GetRuleText()
         {
             Console.WriteLine("Please type in a rule.");
             Console.Write("S -> ");

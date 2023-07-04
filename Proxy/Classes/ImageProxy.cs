@@ -11,9 +11,9 @@ namespace Proxy.Classes
     public class RealImage : IImage
     {
         public string Filename { get; set; }
-        public RealImage(string filename)
+        public RealImage(string? filename)
         {
-            Filename = filename;
+            Filename = Helper.IsNullWhite(filename) ?? throw new ArgumentException(nameof(filename));
             LoadImageFromDisk();
         }
         public void LoadImageFromDisk()
@@ -28,7 +28,7 @@ namespace Proxy.Classes
 
     public class ProxyImage : IImage
     {
-        private RealImage realImage = null;
+        private RealImage? realImage = null;
 
         private readonly object _lock = new object();
 
@@ -45,9 +45,9 @@ namespace Proxy.Classes
                 }
             }
         }
-        public ProxyImage(string filename)
+        public ProxyImage(string? filename)
         {
-            Filename = filename;
+            Filename = Helper.IsNullWhite(filename) ?? throw new ArgumentException(nameof(filename));
         }
         public void DisplayImage()
         {

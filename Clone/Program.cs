@@ -23,10 +23,10 @@ namespace Clone
             Console.WriteLine(v);
 
             var w = CloneHelper<Test>.CreateDeepCopyBinary(v);
-            Console.WriteLine(w.ToString());
+            Console.WriteLine(w?.ToString());
 
             var x = CloneHelper<Test>.CreateDeepCopyXML(t);
-            Console.WriteLine(x.ToString());
+            Console.WriteLine(x?.ToString());
         }
     }
 }

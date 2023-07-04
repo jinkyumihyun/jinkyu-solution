@@ -15,7 +15,7 @@ namespace TV.Classes
         public override AbstractTV TurnOff()
         {
             Console.WriteLine($"turning off the TV...");
-            return StateFactory.Get(TVState.TVOff, Channel); ;
+            return StateFactory.Get(TVState.TVOff, Channel); 
         }
         public override void ChangeChannels(TVChannel channel)
         {

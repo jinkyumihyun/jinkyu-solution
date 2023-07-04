@@ -4,8 +4,8 @@
     {
         public static bool Write(string msg, bool retVal = true)
         { if (!string.IsNullOrWhiteSpace(msg)) { Console.WriteLine(msg); } return retVal; }
-        public static string? IsNullWhite(string str) => string.IsNullOrWhiteSpace(str) ? null : str;
-        public static bool IsNullWhiteBool(string str) => string.IsNullOrWhiteSpace(str);
+        public static string? IsNullWhite(string? str) => string.IsNullOrWhiteSpace(str) ? null : str;
+        public static bool IsNullWhiteBool(string? str) => string.IsNullOrWhiteSpace(str);
         public static int? IsZeroNegative(int number) => number <= 0 ? null : number;
 
         public static T? IsDefined<T>(T e) where T : Enum

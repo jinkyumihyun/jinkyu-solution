@@ -9,8 +9,7 @@ namespace Decorator
         static void Main(string[] args)
         {
             Console.WriteLine($"Design pattern: Decorator\n");
-            var a = new AAA(null);
-            Console.ReadKey();
+            Test();
         }
             static void Test()
         {
@@ -41,10 +40,4 @@ namespace Decorator
             Console.WriteLine(plain);
         }
     }
-    class AAA
-    {
-        BBB _b;
-        public AAA(BBB b) { _b = Helper.NullCheck(b); }
-    }
-    class BBB { }
 }

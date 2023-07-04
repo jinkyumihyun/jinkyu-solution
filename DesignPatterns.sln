@@ -3,14 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenClosed", "..\OpenClosed\OpenClosed.csproj", "{4951EF19-45EA-4BE6-8163-1EE3BD9D3CA9}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiskovSubstitution", "..\LSP\LiskovSubstitution.csproj", "{267DE402-60C3-48C9-9217-A668E78D70BC}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceSegrigation", "..\ISP\InterfaceSegrigation.csproj", "{F4942F29-F1E8-4AE0-941D-79D2BD16F6EB}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example 1", "..\DependencyInversionP\Example 1.csproj", "{DCADEE46-5C81-4958-9195-989468D43EFB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{50CF913D-596E-46A8-82FB-C5A9F588A770}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Flyweight\Flyweight.csproj", "{B4A6F5B1-656C-4774-B4CB-EEDF1BEEAE04}"
@@ -48,8 +40,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{7D4885CC-30D8-4261-853B-D06F10B0CDB0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{4BD1CD73-89CD-48B7-965D-FC142842255E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Principle", "Principle", "{1F691232-F01A-4955-A666-099A30106D44}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Beverage", "Builder\Beverage.csproj", "{8F51D866-9C92-446D-8309-4B3684AB7844}"
 EndProject
@@ -105,26 +95,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Travel", "Travel\Travel.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{08F3AD36-3BB0-48B4-BFC6-1A8728F9A256}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{3D036685-617E-4E1B-A18F-E41DD4B45520}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example 2", "Example 2\Example 2.csproj", "{CE4A5A40-441B-4466-AEC2-452163183131}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{6A7BEE2B-C7C1-407C-9759-AF89317CBCDD}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recycle Bin", "Recycle Bin", "{BD6A8939-7F5E-498B-A99D-B0CE6406B2A1}"
-	ProjectSection(SolutionItems) = preProject
-		..\Visitor\Factories\ActionFactory.cs = ..\Visitor\Factories\ActionFactory.cs
-		..\ChainResponsibility\Classes\ConsoleClass.cs = ..\ChainResponsibility\Classes\ConsoleClass.cs
-		..\Visitor\Factories\ExtendedActionFactory.cs = ..\Visitor\Factories\ExtendedActionFactory.cs
-		Game\Classes\Game.cs = Game\Classes\Game.cs
-		..\ChainResponsibility\Classes\Handler.cs = ..\ChainResponsibility\Classes\Handler.cs
-		..\Visitor\Interfaces\IAction.cs = ..\Visitor\Interfaces\IAction.cs
-		Memento\Classes\LedTv.cs = Memento\Classes\LedTv.cs
-		..\Factory\Classes\Option.cs = ..\Factory\Classes\Option.cs
-		Automaton\Classes\Rule.cs = Automaton\Classes\Rule.cs
-		Military\Classes\ShellFirstDispenser.cs = Military\Classes\ShellFirstDispenser.cs
-		Military\Classes\Unit.cs = Military\Classes\Unit.cs
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Game", "Game\Game.csproj", "{1B395B9A-2037-4337-AA2C-7E7ECA3709B3}"
 EndProject
@@ -158,22 +129,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4951EF19-45EA-4BE6-8163-1EE3BD9D3CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4951EF19-45EA-4BE6-8163-1EE3BD9D3CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4951EF19-45EA-4BE6-8163-1EE3BD9D3CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4951EF19-45EA-4BE6-8163-1EE3BD9D3CA9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{267DE402-60C3-48C9-9217-A668E78D70BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{267DE402-60C3-48C9-9217-A668E78D70BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{267DE402-60C3-48C9-9217-A668E78D70BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{267DE402-60C3-48C9-9217-A668E78D70BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4942F29-F1E8-4AE0-941D-79D2BD16F6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4942F29-F1E8-4AE0-941D-79D2BD16F6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4942F29-F1E8-4AE0-941D-79D2BD16F6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4942F29-F1E8-4AE0-941D-79D2BD16F6EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DCADEE46-5C81-4958-9195-989468D43EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DCADEE46-5C81-4958-9195-989468D43EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCADEE46-5C81-4958-9195-989468D43EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DCADEE46-5C81-4958-9195-989468D43EFB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{50CF913D-596E-46A8-82FB-C5A9F588A770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{50CF913D-596E-46A8-82FB-C5A9F588A770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50CF913D-596E-46A8-82FB-C5A9F588A770}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -302,10 +257,6 @@ Global
 		{F4F29A89-3DE4-4CBC-8976-F1247003FCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4F29A89-3DE4-4CBC-8976-F1247003FCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4F29A89-3DE4-4CBC-8976-F1247003FCC2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE4A5A40-441B-4466-AEC2-452163183131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE4A5A40-441B-4466-AEC2-452163183131}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE4A5A40-441B-4466-AEC2-452163183131}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE4A5A40-441B-4466-AEC2-452163183131}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1B395B9A-2037-4337-AA2C-7E7ECA3709B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1B395B9A-2037-4337-AA2C-7E7ECA3709B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B395B9A-2037-4337-AA2C-7E7ECA3709B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -339,10 +290,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4951EF19-45EA-4BE6-8163-1EE3BD9D3CA9} = {1F691232-F01A-4955-A666-099A30106D44}
-		{267DE402-60C3-48C9-9217-A668E78D70BC} = {1F691232-F01A-4955-A666-099A30106D44}
-		{F4942F29-F1E8-4AE0-941D-79D2BD16F6EB} = {1F691232-F01A-4955-A666-099A30106D44}
-		{DCADEE46-5C81-4958-9195-989468D43EFB} = {3D036685-617E-4E1B-A18F-E41DD4B45520}
 		{50CF913D-596E-46A8-82FB-C5A9F588A770} = {6A7BEE2B-C7C1-407C-9759-AF89317CBCDD}
 		{B4A6F5B1-656C-4774-B4CB-EEDF1BEEAE04} = {7D4885CC-30D8-4261-853B-D06F10B0CDB0}
 		{CAC01D9E-8A26-42B3-BFAC-29130B2C7ACB} = {7D4885CC-30D8-4261-853B-D06F10B0CDB0}
@@ -386,8 +333,6 @@ Global
 		{2863D4F1-C879-482A-B0C4-A81D5A53C5E5} = {4BD1CD73-89CD-48B7-965D-FC142842255E}
 		{F4F29A89-3DE4-4CBC-8976-F1247003FCC2} = {2863D4F1-C879-482A-B0C4-A81D5A53C5E5}
 		{08F3AD36-3BB0-48B4-BFC6-1A8728F9A256} = {4BD1CD73-89CD-48B7-965D-FC142842255E}
-		{3D036685-617E-4E1B-A18F-E41DD4B45520} = {1F691232-F01A-4955-A666-099A30106D44}
-		{CE4A5A40-441B-4466-AEC2-452163183131} = {3D036685-617E-4E1B-A18F-E41DD4B45520}
 		{6A7BEE2B-C7C1-407C-9759-AF89317CBCDD} = {7D4885CC-30D8-4261-853B-D06F10B0CDB0}
 		{1B395B9A-2037-4337-AA2C-7E7ECA3709B3} = {08F3AD36-3BB0-48B4-BFC6-1A8728F9A256}
 		{DADC14FC-6BEC-4F7C-AE9F-2805A5B390D0} = {4BD1CD73-89CD-48B7-965D-FC142842255E}
