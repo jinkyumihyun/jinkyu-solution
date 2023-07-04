@@ -13,7 +13,7 @@ namespace Speakers.Classes
 {
     public class WordsFactory : IWordFactory
     {
-        public AbstractWords Get(string words, AbstractSpeaker speaker, AbstractSpeaker hearer, LanguageOption language) =>
+        public AbstractWords? Get(string words, AbstractSpeaker speaker, AbstractSpeaker hearer, LanguageOption language) =>
             (Helper.IsNullWhite(words), speaker, hearer, IsLanguageOption(language)) switch
             {
                 (null, _, _, _) => throw new ArgumentException(nameof(words)),
@@ -26,7 +26,7 @@ namespace Speakers.Classes
                         LanguageOption.French => new FrenchWords(words, speaker, hearer),
                         LanguageOption.German => new GermanWords(words, speaker, hearer),
                         LanguageOption.Korean => new KoreanWords(words, speaker, hearer),
-                        _ => new NullWords(language)
+                        _ => null
                     }
             };
         static LanguageOption? IsLanguageOption(LanguageOption option) => Enum.IsDefined<LanguageOption>(option) ? option : null;

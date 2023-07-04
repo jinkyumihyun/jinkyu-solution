@@ -13,22 +13,24 @@ namespace ATM.Classes
         List<string> _issuees = new List<string>();
 
         Guid _guid = Guid.NewGuid();
-        public Card? Card { get; private set; } = null;
+        private Card? _card = null;
+
+        public string Name() => _card is not null ? _card.Name : string.Empty; 
         public bool Insert(Card card)
-        => Card is not null ? Helper.Write($"A card already in the slot.", false)
+        => _card is not null ? Helper.Write($"A card already in the slot.", false)
             : card is null ? Helper.Write($"card is null", false)
             : (_issuees.Contains(card.Name) && _guid == card.Guid) ?
-            Helper.Do(() => { Console.WriteLine($"card({card.Name}) inserted and accepted"); Card = card; })
+            Helper.Do(() => { Console.WriteLine($"card({card.Name}) inserted and accepted"); _card = card; })
             : Helper.Write($"card({card.Name}) inserted and rejected", false);
         public void Eject()
         {
-            if ( Card == null )
+            if ( _card == null )
             {
                 Console.WriteLine($"no card in the slot.");
                 return;
             }
-            Console.WriteLine($"card({Card.Name}) ejected");
-            Card = null;
+            Console.WriteLine($"card({_card.Name}) ejected");
+            _card = null;
         }
         public Card IssueCard(string name) 
         { 

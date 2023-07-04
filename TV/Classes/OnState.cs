@@ -27,5 +27,7 @@ namespace TV.Classes
             }
             Console.WriteLine($"Channel stays the same as Channel {(int)Channel}");         
         }
+        protected override AbstractTV StaySameState()
+           => StateFactory.Get(TVState.TVOn, Channel);
     }
 }

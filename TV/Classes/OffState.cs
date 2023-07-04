@@ -20,5 +20,7 @@ namespace TV.Classes
         }
         public override void ChangeChannels(TVChannel channel) 
             => Console.WriteLine($"No change: Current state: Off; Channel {(int)Channel}");
+        protected override AbstractTV StaySameState()
+            => StateFactory.Get(TVState.TVOff, Channel);
     }
 }

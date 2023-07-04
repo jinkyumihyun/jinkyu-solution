@@ -11,16 +11,16 @@ namespace Speakers.Classes
 {
     public class ExtendedWordsFactory : WordsFactory
     {
-        public new AbstractWords Get(string words, AbstractSpeaker speaker, AbstractSpeaker hearer, LanguageOption language)
+        public new AbstractWords? Get(string words, AbstractSpeaker speaker, AbstractSpeaker hearer, LanguageOption language)
         {
             var languageWords = base.Get(words, speaker, hearer, language);
-            if (languageWords is NullWords)
+            if (languageWords is null)
             {
-                languageWords = languageWords.Language switch
+                languageWords = language switch
                 {
                     LanguageOption.Japanese => new JapaneseWords(words, speaker, hearer),
                     LanguageOption.Chinese => new ChineseWords(words, speaker, hearer),
-                    _ => new NullWords(languageWords.Language)
+                    _ => null
                 };
             }
             return languageWords;

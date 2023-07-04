@@ -17,7 +17,7 @@ namespace Iterator.Classes
 
         //*******************************************************
         public int ID => default;
-        public string Name => default;
+        public string? Name => default;
         public override string ToString() => string.Empty;
     }
 }

@@ -13,8 +13,8 @@ namespace TV.Classes
     {
         // A reference to the current state of the Context.
         private AbstractTV _tVMachineState = StateFactory.Get(TVState.TVOff, TVChannel.ChannelOne);
-        public void TurnOn() => _tVMachineState = _tVMachineState.TurnOn();
-        public void TurnOff() => _tVMachineState = _tVMachineState.TurnOff();
+        public void TurnOn() => _tVMachineState = _tVMachineState.TurnOn()!;
+        public void TurnOff() => _tVMachineState = _tVMachineState.TurnOff()!;
         public void ChangeChannels(TVChannel channel) => _tVMachineState.ChangeChannels(channel);        
     }
 }

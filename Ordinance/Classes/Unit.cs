@@ -23,7 +23,7 @@ namespace Ordinance.Classes
             (_, null) => throw new ArgumentException(nameof(unitName)),
             (_, _) => new Unit(dispenser, unitName)
         };
-        public Unit NextUnit { get; set; }
+        public Unit? NextUnit { get; set; }
         public IOrdinanceDispenser _dispenser;
         public string _unitName;
         public bool DispenseOrdinance(ref int numberBullets, ref int numberShells) =>

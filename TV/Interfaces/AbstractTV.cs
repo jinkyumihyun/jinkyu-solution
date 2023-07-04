@@ -10,13 +10,14 @@ namespace TV.Interfaces
     public abstract class AbstractTV : ITVState
     {
         public TVChannel Channel { get; set; }
-        public virtual AbstractTV? TurnOn()
+        protected abstract AbstractTV StaySameState();
+        public virtual AbstractTV TurnOn()
         {
-            return null;
+            return StaySameState();
         }
-        public virtual AbstractTV? TurnOff()
+        public virtual AbstractTV TurnOff()
         {
-            return null;
+            return StaySameState();
         }
         public abstract void ChangeChannels(TVChannel channel);
     }

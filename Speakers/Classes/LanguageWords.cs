@@ -41,5 +41,4 @@ namespace Speakers.Classes
         public ChineseWords(string words, AbstractSpeaker speaker, AbstractSpeaker hearer)
             : base(words, speaker, hearer, LanguageOption.Chinese) { }
     }
-
 }

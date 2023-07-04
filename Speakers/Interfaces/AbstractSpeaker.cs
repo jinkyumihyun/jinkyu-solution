@@ -15,7 +15,7 @@ namespace Speakers.Interfaces
             => (Name, Language) = (name, option);
         public string Name { get; }
         public LanguageOption Language { get; }
-        public AbstractTranslator Translator { get; private set; }
+        public AbstractTranslator? Translator { get; private set; }
         public bool Register(AbstractTranslator translator)
         {
              if (! translator.Languages.Contains(Language))

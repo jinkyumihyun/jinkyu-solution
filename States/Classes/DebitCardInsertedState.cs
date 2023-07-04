@@ -17,7 +17,7 @@ namespace ATM.Classes
             return StateFactory.Get(ATMState.DebitCardNotInserted);
         }
         public override AbstractATM EnterPin(string pin)
-            => _credential.Check(_cardUser.Card.Name, pin) ? StateFactory.Get(ATMState.PinEntered) : StaySameState();
+            => _credential.Check(_cardUser.Name(), pin) ? StateFactory.Get(ATMState.PinEntered) : StaySameState();
         protected override AbstractATM StaySameState() 
             => StateFactory.Get(ATMState.DebitCardInserted);
     }

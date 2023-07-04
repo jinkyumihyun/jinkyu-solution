@@ -11,8 +11,7 @@ namespace TV.Interfaces
         enum TVState
         {
             TVOff,
-            TVOn,
-           
+            TVOn,          
         }
         enum TVChannel
         {
@@ -26,10 +25,5 @@ namespace TV.Interfaces
             ChannelEight = 8,
             ChannelNine = 9,
         }
-        //TVChannel Channel { get; }
-        //AbstractTV TurnOn();
-        //AbstractTV TurnOff();
-        //void ChangeChannels(TVChannel channel);
     }
-
 }

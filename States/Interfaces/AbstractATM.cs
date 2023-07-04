@@ -23,28 +23,23 @@ namespace ATM.Interfaces
         public Card IssueCard(string user) => _cardUser.IssueCard(user);
         protected abstract AbstractATM StaySameState();
         public virtual AbstractATM InsertDebitCard(Card card)
-        {
-            Console.WriteLine("no-op");
+        { 
             return StaySameState();
         }
         public virtual AbstractATM EjectDebitCard()
         {
-            Console.WriteLine("no-op");
             return StaySameState();
         }
         public virtual AbstractATM EnterPin(string pin)
         {
-            Console.WriteLine("no-op");
              return StaySameState();
         }
         public virtual AbstractATM WithdrawMoney(int amount)
-        {
-            Console.WriteLine("no-op");
+        { 
             return StaySameState();
         }
         public virtual AbstractATM SaveMoney(int amount)
         {
-            Console.WriteLine("no-op");
             return StaySameState();
         }
     }
